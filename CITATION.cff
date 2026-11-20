@@ -4,7 +4,7 @@ title: "Electronic Health Record-Based Diagnostic Stewardship to Reduce Antibiot
 version: "2.0.0"
 date-released: "2026-11-19"
 license: "MIT"
-repository-code: "repository-code: "https://github.com/fitrandakt/asb-ehr-diagnostic-stewardship-srma"
+repository-code: "https://github.com/fitrandakt/asb-ehr-diagnostic-stewardship-srma"
 authors:
   - family-names: "Taslim"
     given-names: "Fitranda Kusiyanto"
