@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset, analysis pipeline, or figures, please cite this repository."
+title: "Electronic Health Record-Based Diagnostic Stewardship to Reduce Antibiotic Use in Asymptomatic Bacteriuria: Reproducible SRMA Data and Code"
+version: "2.0.0"
+date-released: "2026-11-19"
+license: "MIT"
+repository-code: "https://github.com/fernanda-alvarez/asb-ehr-diagnostic-stewardship-srma"
+authors:
+  - family-names: "Taslim"
+    given-names: "Fitranda Kusiyanto"
+    affiliation: "Faculty of Medicine, Universitas Jember, Indonesia"
+    email: "fitrandataslim@outlook.com"
+  - family-names: "Azhar"
+    given-names: "Reinaldi Septiawan"
+    affiliation: "Faculty of Medicine, Universitas Jember, Indonesia"
+  - family-names: "Amini"
+    given-names: "Stefia Aisyah"
+    affiliation: "Faculty of Medicine, Universitas Jember, Indonesia"
+keywords:
+  - asymptomatic bacteriuria
+  - diagnostic stewardship
+  - clinical decision support
+  - electronic health records
+  - systematic review
+  - meta-analysis

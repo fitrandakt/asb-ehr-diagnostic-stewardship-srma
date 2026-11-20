@@ -1,0 +1,15 @@
+DATA EXTRACTION PLANNING & GOVERNANCE WORKBOOK — IDEA NO. 5 (PIT XXV IPD FK USU 2026),,,,,
+Open Study Protocol (Google Docs),,Open Study Records Folder (43 PDFs),,Standard: PRISMA-P 2015 / SWiM  |  Phase: Planning (Pre-Extraction),
+TOTAL PRE-SCREENED,ADULT PRIMARY,PDFs IN STUDY RECORDS,NEED LIBRARY / BROWSER,R1 / R2 IN PROGRESS,CONSENSUS FINALIZED
+50,44,43,0,0,43
+44 Adult + 4 Sens + 1 Pend + 1 Grey,39 unique + 5 linked follow-ups,Ready for immediate PDF extraction,0 Paywalled + 0 POW-Gated OA,Sequential 1-by-1 verification,Target: 44/44 before synthesis
+EXTRACTION GOVERNANCE & 8-STEP OPERATIONAL PLAN,,,,,
+Phase / Governance Pillar,Operational Rule & Extraction Workflow,,Target Tabs,Quality Gate / Deliverable,Status
+1. Study-by-Study Extraction,"Extract and verify one study at a time carefully (starting with PDFs in Study Records) across Roster, assigned Strata (04-06), and RoB (07) before moving to the next study.",,"03, 04, 05, 06, 07",Complete & verify 1 study before next,Ready (Next Step)
+2. Independent Dual Extraction,"Reviewer 1 extracts full text with page/table anchors; Reviewer 2 independently verifies all counts, 95% CIs, and quotes. Senior reviewer arbitrates conflicts.",,"03, 04, 05, 06, 07",Status: Not Started -> R1 -> R2 -> Finalized,Planned
+3. Cohort-Lineage Deduplication,"Never pool overlapping cohorts from the same hospital network: L1_Riyadh (S03/S04), L2_UNMC (S11/S20/S13), L3_VAPBRN (S33/S17), L4_Emory (S35/S50), L5_WashU_BJH (S41/S40), L6_OhioHealth (S19 supersedes PMC11779270).",,03_Study_Roster & All,Linked-Duplicate flagged before pooling,Configured
+4. Denominator Stratification,"Separate confirmed-ASB prescribing (Tab 04), diagnostic/UC/DOT/CAUTI & ITS slopes (Tab 05), and clinical safety/compensatory shifts (Tab 06). Zero cross-denominator pooling.",,2006-05-04 00:00:00,Conditional Stratum A pooling only if >=3 comparable,Configured
+5. Stratum A 2x2 Reconstruction,"Extract raw integer Pre/Post ASB denominators (N) and antibiotic events (n) alongside reported aOR/RR. Spreadsheet formulas auto-compute Pre %, Post %, abs pp diff, and crude RR.",,04_StratumA,Formula Pre/Post % match published text,Configured
+6. EHR vs Co-Intervention Split,"Capture exact EHR workflow trigger (BPA, mandatory indication menu, reflex UA->UC, hard-stop, EMR calculator, micro nudge) separately from education or audit-feedback co-interventions.",,2026-05-04 00:00:00,Co_Intervention_Bundled coded for all studies,Configured
+7. Design-Routed Risk of Bias,"Route ITS studies to EPOC ITS (7 criteria), pre-post/DiD cohorts to ROBINS-I (D1–D7), and RCTs to RoB 2 (D1–D5); explicitly check COVID-19 and secular trend confounding.",,07_Risk_of_Bias,Domain + overall rating + verbatim quote,Configured
+8. Missing Data & Full-Text Queue,"Use standardized codes: NR (Not Reported), NA (Not Applicable), or Pending_PDF (32 paywalled/POW-gated articles). Keep mixed-age studies (S45–S48) strictly Sensitivity-Only.",,"03, 04, 05, 06",Zero ambiguous blanks at sign-off,Configured
